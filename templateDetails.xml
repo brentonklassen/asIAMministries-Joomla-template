@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="template">
+        <name>asIAMtemplate</name>
+        <creationDate>2014-05-23</creationDate>
+        <author>Brenton Klassen</author>
+        <authorEmail>midwestmicro@live.com</authorEmail>
+        <authorUrl>http://www.brentonklassen.com</authorUrl>
+        <copyright>Brenton Klassen 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>0.0.1</version>
+        <description>as I AM ministries Template</description>
+        <files>
+                <folder>css</folder>
+                <folder>images</folder>
+                <folder>img</folder>
+                <folder>js</folder>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+        </files>
+        <positions>
+                <position>navbar</position>
+                <position>navbar-pull-right</position>
+                <position>banner</position>
+                <position>top</position>
+                <position>bottom</position>
+                <position>left</position>
+                <position>right</position>
+                <position>footer</position>
+        </positions>
+</extension>
