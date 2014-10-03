@@ -67,7 +67,8 @@ else
       </div>
     </div>
     <div class="container-fluid main-banner">
-      <jdoc:include type="modules" name="banner" /> <!-- images in this container must include the class main-banner-img -->
+      <!-- images in this container must include the class main-banner-img -->
+      <jdoc:include type="modules" name="banner" />
     </div>
     <div id="main-content-section">
       <div class="container">
@@ -104,7 +105,8 @@ else
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <?php JHtml::_('bootstrap.framework'); ?>
-    <script src="<?php echo $this->baseurl ?>/templates/asIAMtemplate/js/customjs.js" type="text/javascript"></script>
-
+    <script src="<?php echo $this->baseurl ?>/templates/asIAMtemplate/js/customjs.js" type="text/javascript">
+    </script>
+    
   </body>
 </html>
